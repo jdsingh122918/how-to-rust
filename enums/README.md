@@ -9,3 +9,7 @@ The `Option` type `enum` is used in many places because it encodes the very comm
 # `match` Control Flow operator
 
 `match` is used to compare values against a series of pattern and execute code against it. They are also exhaustive in nature. The compile will complain if we are accounting for all the options. The `_` placeholder is used for defualt cases when nothing else matches.
+
+# `if let`
+
+The `if let` syntax allows the user to combine `if` and `let` in a less verbose way to handle values that match one pattern while ignoring the rest.
