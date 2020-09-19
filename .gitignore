@@ -5,3 +5,4 @@ loop-iterators/target
 ownership/target
 slices/target
 structs/target
+enums/target
