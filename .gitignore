@@ -8,3 +8,4 @@ structs/target
 enums/target
 modules-packages/target
 common-collections/target
+error-handling/target
