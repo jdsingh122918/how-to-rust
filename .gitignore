@@ -1,3 +1,4 @@
+.idea
 hello-world/target
 guess-who/target
 celcius-farenheit/target
@@ -9,3 +10,4 @@ enums/target
 modules-packages/target
 common-collections/target
 error-handling/target
+generics/target
