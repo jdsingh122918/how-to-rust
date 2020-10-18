@@ -24,11 +24,11 @@ where
 
     fn value(&mut self, arg: u32) -> u32 {
         match self.value.get(&arg) {
-            Some(&number) => number,
+            Some(&result) => result,
             None => {
-                let v = (self.calculation)(arg);
-                self.value.insert(arg, v);
-                v
+                let result = (self.calculation)(arg);
+                self.value.insert(arg, result);
+                result
             }
         }
     }
