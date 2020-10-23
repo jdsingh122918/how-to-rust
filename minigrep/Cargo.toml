@@ -7,3 +7,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+# opt-level describe the how much we want to optimize the code.
+# More the level, better the optimization and longer the compile time.
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
